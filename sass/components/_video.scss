@@ -1,0 +1,64 @@
+@import '../variables/variable';
+@import '../mixins/mixin';
+
+/*=======================================================================================
+                                        video part start
+=========================================================================================*/
+#video {
+
+    .common_head {
+        padding-bottom: 30px;
+
+        h3 {
+            @include fs(#353535, 24px, 700, $ral);
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 5px;
+
+            &::after {
+                @include after_T(47px, 673px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(-18px, 673px, 1px, 50px, #353535);
+            }
+        }
+
+        .about_icon {
+            position: relative;
+
+            &::after {
+                @include after_T(13px, 600px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(6px, 595px, 1px, 50px, #353535);
+            }
+        }
+    }
+
+    .video_img {
+        padding: 215px 0;
+        position: relative;
+        z-index: 1;
+
+        .video_icon {
+            margin: 0 auto;
+            text-align: center;
+
+            i {
+                font-size: 80px;
+                color: #feffff;
+            }
+        }
+
+        &::after {
+            @include after_T(0, 0, 100%, 100%, rgba(0, 0, 0, 0.6));
+            z-index: -1;
+        }
+    }
+}
+
+/*=======================================================================================
+                                        video part end
+=========================================================================================*/

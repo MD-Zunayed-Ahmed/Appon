@@ -1,0 +1,154 @@
+@import '../variables/variable';
+@import '../mixins/mixin';
+
+/*=======================================================================================
+                                        feedback part start
+=========================================================================================*/
+#feedback {
+    padding: 100px 0;
+
+    .common_head {
+        padding-bottom: 30px;
+
+        h3 {
+            @include fs(#353535, 24px, 700, $ral);
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 5px;
+
+            &::after {
+                @include after_T(46px, 673px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(-18px, 673px, 1px, 50px, #353535);
+            }
+        }
+
+        .about_icon {
+            position: relative;
+
+            &::after {
+                @include after_T(13px, 600px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(7px, 595px, 1px, 50px, #353535);
+            }
+        }
+    }
+
+    .feed_slider {
+        position: relative;
+        z-index: 1;
+        padding: 45px 0;
+
+        &::after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+
+        .big_slider {
+            width: 800px !important;
+            margin: 0 auto;
+            background: #f1f1f1;
+            border-radius: 10px;
+
+            .big_slider_1 {
+
+                p {
+                    @include fs(#555, 14px, 400, $open);
+                    line-height: 20px;
+                    width: 670px;
+                    margin: 0 auto;
+                    margin-bottom: 40px;
+                    padding-top: 20px;
+                }
+
+                ul {
+                    li {
+                        padding-right: 5px;
+
+                        i {
+                            color: #744fa0;
+                        }
+                    }
+                }
+
+                h5 {
+                    @include fs(#353535, 18px, 700, $ral);
+                    margin-top: 5px;
+                }
+
+                h6 {
+                    @include fs(#353535, 14px, 400, $open);
+                    margin: 5px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+
+        .small_slider {
+            padding-top: 50px;
+            position: relative;
+            width: 1320px;
+            margin: 0 auto;
+
+            &::after {
+                position: absolute;
+                content: '';
+                top: -20px;
+                left: 50%;
+                height: 40px;
+                width: 40px;
+                transform: translateX(-50%);
+                background: #f1f1f1;
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            }
+
+            .small_slider_img {
+                padding: 0 30px;
+
+                img {
+                    margin: 0 auto;
+                }
+            }
+
+            .slick-dots {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                li {
+                    padding: 0 5px;
+
+                    button {
+                        font-size: 0;
+                        height: 18px;
+                        background: transparent;
+                        width: 18px;
+                        border-radius: 50%;
+                        border: 3px solid #fff;
+                    }
+                }
+
+                .slick-active {
+                    button {
+                        border: 3px solid #744fa0;
+                        background: #744fa0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=======================================================================================
+                                        feedback part end
+=========================================================================================*/

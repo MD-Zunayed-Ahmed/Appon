@@ -1,0 +1,28 @@
+@import '../variables/variable';
+@import '../mixins/mixin';
+
+/*=======================================================================================
+                                        back to top button start
+=========================================================================================*/
+.bc_top {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    background: #1da1f2;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 99999;
+    display: none;
+
+    i {
+        color: #fff;
+    }
+}
+
+/*=======================================================================================
+                                        back to top button end
+=========================================================================================*/

@@ -1,0 +1,46 @@
+@mixin fs($c, $fs, $fw, $ff) {
+    color: $c;
+    font-size: $fs;
+    font-weight: $fw;
+    font-family: $ff;
+}
+
+@mixin after_T($t, $l, $h, $w, $bg) {
+    position: absolute;
+    content: '';
+    top: $t;
+    left: $l;
+    height: $h;
+    width: $w;
+    background: $bg;
+}
+
+@mixin after_B($b, $l, $h, $w, $bg) {
+    position: absolute;
+    content: '';
+    bottom: $b;
+    left: $l;
+    height: $h;
+    width: $w;
+    background: $bg;
+}
+
+@mixin before_T($t, $l, $h, $w, $bg) {
+    position: absolute;
+    content: '';
+    top: $t;
+    left: $l;
+    height: $h;
+    width: $w;
+    background: $bg;
+}
+
+@mixin before_B($b, $l, $h, $w, $bg) {
+    position: absolute;
+    content: '';
+    bottom: $b;
+    left: $l;
+    height: $h;
+    width: $w;
+    background: $bg;
+}

@@ -1,0 +1,106 @@
+@import '../variables/variable';
+@import '../mixins/mixin';
+
+/*=======================================================================================
+                                        banner part start
+=========================================================================================*/
+#banner {
+    padding: 245px 0 130px;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: -1
+    }
+
+    .banner_text {
+        text-align: right;
+
+        h1 {
+            @include fs(#fff, 56px, 700, $ral);
+            text-transform: uppercase;
+
+            span {
+                color: $hover;
+            }
+        }
+
+        h3 {
+            @include fs(#fff, 32px, 300, $ral);
+            text-transform: uppercase;
+            position: relative;
+            margin: 10px 0 40px;
+
+            &::after {
+                position: absolute;
+                content: '';
+                top: 60px;
+                right: 0;
+                width: 200px;
+                background: #fff;
+                height: 1px;
+            }
+        }
+
+        p {
+            @include fs(#fff, 14px, 400, $open);
+            line-height: 20px;
+        }
+
+        a {
+            padding: 8px 20px;
+            background: #fff;
+            margin-left: 5px;
+            margin-top: 55px;
+            color: #353535;
+            transition: all linear .3s;
+            border-radius: 5px;
+
+            &:hover {
+                background: $hover;
+                color: #fff;
+
+                .a_text {
+                    h5{
+                        color: #fff;
+                    }
+                    p {
+                        color: #fff;
+                    }
+                }
+            }
+
+            .icon {
+                display: inline-block;
+                font-size: 30px;
+                margin-right: 7px;
+            }
+
+            .a_text {
+                display: inline-block;
+
+                p {
+                    color: #353535;
+                    transition: all linear .3s;
+                }
+
+                h5 {
+                    margin-top: -3px;
+                    @include fs(#353535, 18px, 700, $ral);
+                    transition: all linear .3s;
+                }
+            }
+        }
+    }
+}
+
+/*=======================================================================================
+                                        banner part end
+=========================================================================================*/

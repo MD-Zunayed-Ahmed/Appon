@@ -1,0 +1,1971 @@
+@media(max-width:575px) {
+
+    /* menu part start */
+    .main_menu {
+        top: 10px;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu .navbar-toggler i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-brand img {
+        width: 60% !important;
+    }
+
+    .main_menu #navbarSupportedContent {
+        text-align: center;
+        background: #1da1f2;
+        padding-top: 10px;
+    }
+
+    .main_menu ul li a:hover::after {
+        display: none;
+    }
+
+    .main_menu ul li a:hover {
+        color: #fff;
+    }
+
+    .main_menu ul li a {
+        padding: 5px;
+    }
+
+    .main_menu .button a {
+        font-size: 12px;
+        padding: 6px 20px;
+        margin-bottom: 10px;
+    }
+
+    .fix_menu {
+        background: #1da1f2;
+        height: 70px;
+        top: 0;
+    }
+
+    /* menu part end */
+
+
+
+    /* banner part start */
+    #banner {
+        padding: 110px 0 50px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 46px;
+    }
+
+    #banner .banner_text h3 {
+        font-size: 25px;
+        margin: 5px 0 20px;
+    }
+
+    #banner .banner_text h3::after {
+        top: 70px;
+    }
+
+    #banner .banner_text p {
+        display: none;
+    }
+
+    #banner .banner_text a {
+        padding: 8px 20px;
+        margin-top: 15px;
+    }
+
+    #banner .banner_text a .icon {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    #banner .banner_text a .a_text h5 {
+        font-size: 12px;
+    }
+
+    /* banner part end */
+
+
+    /* about part start */
+    #about {
+        padding: 0;
+    }
+
+    #about .space .about_text {
+        padding: 40px 0 30px;
+    }
+
+    #about .space .about_text p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    /* about part end */
+
+
+
+    /* service part start */
+    #service {
+        padding: 40px 0 20px;
+    }
+
+    #service .common_head {
+        padding-bottom: 20px;
+    }
+
+    #service .serv_item .item_icon {
+        text-align: left;
+        font-size: 0;
+        width: 10%;
+        position: relative;
+    }
+
+    #service .serv_item .item_icon i {
+        font-size: 30px;
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+    }
+
+    #service .serv_item .item_text {
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 15px;
+    }
+
+    #service .serv_item .item_text h3 {
+        font-size: 15px;
+    }
+
+    #service .serv_item .item_text p {
+        font-size: 12px;
+    }
+
+    #service .serv_item .item_text p::after {
+        top: 30px;
+        left: -50px;
+        width: 120%;
+    }
+
+    #service .serv_item {
+        padding-top: 30px;
+    }
+
+    #service .serv_item_1,
+    .serv_item_2,
+    .serv_item_3,
+    .serv_item_4,
+    .serv_item_5 {
+        margin: 0 !important;
+    }
+
+    #service .serv_item_1 {
+        padding-top: 0 !important;
+    }
+
+    #service .sm_padding {
+        padding-bottom: 30px;
+    }
+
+    #service .serv_text {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #service .serv_text h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    #service .serv_text p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    #service .serv_text p span {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    #service .serv_item:last-child .item_text p::after {
+        display: block;
+    }
+
+    /* service part end */
+
+
+    /* screenshots part start */
+    #screenshots {
+        display: none;
+    }
+
+    /* screenshots part end */
+
+
+
+    /* video part start */
+    #video {
+        padding: 40px 0 0;
+    }
+
+    #video .video_img .video_icon i {
+        font-size: 40px;
+        color: #feffff;
+    }
+
+    #video .video_img {
+        padding: 50px 0;
+    }
+
+    #video .common_head {
+        padding-bottom: 20px;
+    }
+
+    /* video part end */
+
+
+
+    /* plan part start */
+    #plan {
+        padding: 40px 0 0;
+    }
+
+    #plan .membership .plan_item .item_head h3 {
+        font-size: 16px;
+        padding: 16px 30px;
+    }
+
+    #plan .membership .plan_item .item_price {
+        padding: 30px 0;
+    }
+
+    #plan .membership .plan_item .item_price h2 {
+        font-size: 30px;
+    }
+
+    #plan .membership .plan_item .item_price p {
+        font-size: 13px;
+    }
+
+    #plan .membership .plan_item .item_price::after {
+        height: 100px;
+        width: 100px;
+    }
+
+    #plan .membership .plan_item .item_list ul {
+        padding: 10px 0 30px;
+    }
+
+    #plan .membership .plan_item .item_list ul li {
+        font-size: 12px;
+    }
+
+    #plan .membership .plan_item .item_button a {
+        font-size: 12px;
+    }
+
+    #plan .membership .plan_item {
+        margin-bottom: 40px;
+    }
+
+    /* plan part end */
+
+
+
+
+    /* team part start */
+    #team .team_all .team_item .team_text {
+        opacity: 1;
+        padding: 15px;
+    }
+
+    #team .team_all .team_item .team_img .overly {
+        opacity: 1;
+    }
+
+    #team .team_all .team_item {
+        margin-bottom: 20px;
+    }
+
+    #team .team_all .team_item .team_text h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #team .team_all .team_item .team_text h6 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    #team .team_all .team_item .t\eam_text p {
+        font-size: 12px;
+    }
+
+    #plan .membership .plan_item .item_head {
+        background: #744fa0;
+    }
+
+    #plan .membership .plan_item .item_head h3 {
+        color: #fff;
+    }
+
+    #plan .membership .plan_item .item_button a {
+        color: #fff;
+        background: #744fa0;
+        border: 1px solid #744fa0;
+    }
+
+    #plan .membership .plan_item:hover .item_button a {
+        display: 0;
+    }
+
+    /* team part end */
+
+
+    /* feedback part start */
+    #feedback {
+        display: none;
+    }
+
+    /* feedback part end */
+
+
+    /* contact part start */
+    #contact {
+        padding-bottom: 40px;
+    }
+
+    #contact form input {
+        padding: 10px 0 10px 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #contact form textarea {
+        margin-top: 0;
+        font-size: 12px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    #contact form .button {
+        padding-top: 20px;
+    }
+
+    /* contact part end */
+
+
+
+    /* footer part start */
+    #footer .foot_logo img {
+        width: 60% !important;
+    }
+
+    #footer .foot_link {
+        padding-top: 20px;
+    }
+
+    #footer .foot_link ul li a {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+
+    #footer .foot_text p a {
+        font-size: 12px;
+    }
+
+    #footer .foot_text p {
+        font-size: 12px;
+    }
+
+    #footer .foot_text {
+        padding-top: 20px;
+    }
+
+    /* footer part end */
+
+
+    /*back to top button start */
+    .bc_top {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    /*back to top button end */
+
+    .about_icon {
+        display: none;
+    }
+
+    h3::after {
+        display: none;
+    }
+
+    h3::before {
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+
+    /* menu part start */
+    .main_menu {
+        top: 20px;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu .navbar-toggler i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-brand img {
+        width: 80% !important;
+    }
+
+    .main_menu .button a:hover {
+        display: 0;
+    }
+
+    .main_menu .button a {
+        background: #744fa0;
+        color: #fff;
+    }
+
+    .main_menu #navbarSupportedContent {
+        text-align: center;
+        background: #1da1f2;
+        padding-top: 10px;
+    }
+
+    .main_menu ul li a:hover::after {
+        display: none;
+    }
+
+    .main_menu ul li a:hover {
+        color: #fff;
+    }
+
+    .main_menu ul li a {
+        padding: 5px;
+    }
+
+    .main_menu .button a {
+        margin-bottom: 10px;
+    }
+
+    .fix_menu {
+        background: #1da1f2;
+        top: 0px;
+        padding: 15px 0 !important;
+    }
+
+    /* menu part end */
+
+
+
+    /* banner part start */
+    #banner {
+        padding: 120px 0 60px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 50px;
+    }
+
+    #banner .banner_text h3 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        width: 60%;
+        float: right;
+        margin: 5px 0 10px;
+    }
+
+    #banner .banner_text h3::after {
+        top: 70px;
+    }
+
+    #banner .banner_text p {
+        width: 90%;
+        float: right;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #banner .banner_text a {
+        padding: 7px 20px;
+        margin-top: 30px;
+    }
+
+    #banner .banner_text a .icon {
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    #banner .banner_text a .a_text h5 {
+        font-size: 16px;
+    }
+
+    /* banner part end */
+
+
+    /* about part start */
+    #about {
+        padding: 0;
+    }
+
+    #about .space .about_text {
+        padding: 40px 0 30px;
+    }
+
+    #about .space .about_text p {
+        font-size: 14px;
+        padding-top: 15px;
+        line-height: 21px;
+    }
+
+    /* about part end */
+
+
+
+    /* service part start */
+    #service {
+        padding: 40px 0 20px;
+    }
+
+    #service .common_head {
+        padding-bottom: 20px;
+    }
+
+    #service .serv_item .item_icon {
+        text-align: left;
+        font-size: 0;
+        width: 10%;
+        position: relative;
+    }
+
+    #service .serv_item .item_icon i {
+        font-size: 30px;
+        position: absolute;
+        left: 25px;
+        bottom: 0;
+    }
+
+    #service .serv_item .item_text {
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 5px;
+    }
+
+    #service .serv_item .item_text h3 {
+        font-size: 16px;
+    }
+
+    #service .serv_item .item_text p {
+        font-size: 14px;
+    }
+
+    #service .serv_img {
+        padding-top: 20px;
+    }
+
+    #service .serv_item .item_text p::after {
+        top: 30px;
+        left: -50px;
+        width: 120%;
+    }
+
+    #service .serv_item {
+        padding-top: 30px;
+    }
+
+    #service .serv_item_1,
+    .serv_item_2,
+    .serv_item_3,
+    .serv_item_4,
+    .serv_item_5 {
+        margin: 0 !important;
+    }
+
+    #service .serv_item_1 {
+        padding-top: 0 !important;
+    }
+
+    #service .sm_padding {
+        padding-bottom: 30px;
+    }
+
+    #service .serv_text {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #service .serv_text h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    #service .serv_text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #service .serv_text p span {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+
+    #service .serv_item:last-child .item_text p::after {
+        display: block;
+    }
+
+    /* service part end */
+
+
+    /* screenshots part start */
+    #screenshots {
+        display: none;
+    }
+
+    /* screenshots part end */
+
+
+
+    /* video part start */
+    #video {
+        padding: 40px 0 0;
+    }
+
+    #video .video_img .video_icon i {
+        font-size: 60px;
+        color: #feffff;
+    }
+
+    #video .video_img {
+        padding: 75px 0;
+    }
+
+    #video .common_head {
+        padding-bottom: 20px;
+    }
+
+    /* video part end */
+
+
+
+    /* plan part start */
+    #plan {
+        padding: 40px 0 0;
+    }
+
+    #plan .membership .plan_item .item_head h3 {
+        font-size: 16px;
+        padding: 16px 30px;
+    }
+
+    #plan .membership .plan_item .item_price {
+        padding: 30px 0;
+    }
+
+    #plan .membership .plan_item .item_price h2 {
+        font-size: 30px;
+    }
+
+    #plan .membership .plan_item .item_price p {
+        font-size: 13px;
+    }
+
+    #plan .membership .plan_item .item_price::after {
+        height: 100px;
+        width: 100px;
+    }
+
+    #plan .membership .plan_item .item_list ul {
+        padding: 10px 0 30px;
+    }
+
+    #plan .membership .plan_item .item_list ul li {
+        font-size: 12px;
+    }
+
+    #plan .membership .plan_item .item_button a {
+        font-size: 12px;
+    }
+
+    #plan .membership .plan_item {
+        margin-bottom: 40px;
+    }
+
+    #plan .membership .plan_item .item_head {
+        background: #744fa0;
+    }
+
+    #plan .membership .plan_item .item_head h3 {
+        color: #fff;
+    }
+
+    #plan .membership .plan_item .item_button a {
+        color: #fff;
+        background: #744fa0;
+        border: 1px solid #744fa0;
+    }
+
+    #plan .membership .plan_item:hover .item_button a {
+        display: 0;
+    }
+
+    /* plan part end */
+
+
+
+
+    /* team part start */
+    #team {
+        padding: 20px 0;
+    }
+
+    #team .team_all .team_item .team_text {
+        opacity: 1;
+        padding: 15px;
+    }
+
+    #team .team_all .team_item .team_img .overly {
+        opacity: 1;
+    }
+
+    #team .team_all .team_item {
+        margin-bottom: 20px;
+    }
+
+    #team .team_all .team_item .team_text h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #team .team_all .team_item .team_text h6 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    #team .team_all .team_item .t\eam_text p {
+        font-size: 12px;
+    }
+
+    /* team part end */
+
+
+    /* feedback part start */
+    #feedback {
+        padding: 0;
+    }
+
+    #feedback .feed_slider .big_slider {
+        width: 520px !important;
+        margin: 0 auto;
+    }
+
+    #feedback .feed_slider .big_slider .big_slider_1 {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    #feedback .feed_slider .big_slider .big_slider_1 p {
+        font-size: 13px;
+        line-height: 21px;
+        width: 500px;
+        margin-bottom: 25px;
+    }
+
+    #feedback .feed_slider .small_slider {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    /* feedback part end */
+
+
+    /* contact part start */
+    #contact {
+        padding: 40px 0;
+    }
+
+    #contact form input {
+        padding: 10px 0 10px 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #contact form textarea {
+        margin-top: 0;
+        font-size: 14px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    #contact form .button {
+        padding-top: 20px;
+    }
+
+    /* contact part end */
+
+
+
+    /* footer part start */
+    #footer .foot_logo img {
+        width: 80% !important;
+    }
+
+    #footer .foot_link {
+        padding-top: 20px;
+    }
+
+    #footer .foot_link ul li a {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    #footer .foot_text p a {
+        font-size: 14px;
+    }
+
+    #footer .foot_text p {
+        font-size: 14px;
+    }
+
+    #footer .foot_text {
+        padding-top: 20px;
+    }
+
+    /* footer part end */
+
+
+    /*back to top button start */
+    .bc_top {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    /*back to top button end */
+
+    .about_icon {
+        display: none;
+    }
+
+    h3::after {
+        display: none;
+    }
+
+    h3::before {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+
+    /* menu part start */
+    .main_menu {
+        top: 20px;
+    }
+
+    .main_menu .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .main_menu .navbar-toggler i {
+        color: #fff;
+    }
+
+    .main_menu .navbar-brand img {
+        width: 90% !important;
+    }
+
+    .main_menu .button a:hover {
+        display: 0;
+    }
+
+    .main_menu .button a {
+        background: #744fa0;
+        color: #fff;
+    }
+
+    .main_menu #navbarSupportedContent {
+        text-align: center;
+        background: #1da1f2;
+        padding-top: 10px;
+    }
+
+    .main_menu ul li a:hover::after {
+        display: none;
+    }
+
+    .main_menu ul li a:hover {
+        color: #fff;
+    }
+
+    .main_menu ul li a {
+        padding: 5px;
+    }
+
+    .main_menu .button a {
+        margin-bottom: 10px;
+    }
+
+    .fix_menu {
+        background: #1da1f2;
+        top: 0px;
+        padding: 15px 0 !important;
+    }
+
+    /* menu part end */
+
+
+
+    /* banner part start */
+    #banner {
+        padding: 150px 0 60px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 50px;
+    }
+
+    #banner .banner_text h3 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        width: 100%;
+        float: right;
+        margin: 5px 0 30px;
+    }
+
+    #banner .banner_text h3::after {
+        top: 50px;
+    }
+
+    #banner .banner_text p {
+        width: 515px;
+        float: right;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #banner .banner_text a .a_text p {
+        width: 100%;
+    }
+
+    #banner .banner_text a {
+        padding: 5px 20px;
+        margin-top: 30px;
+    }
+
+    #banner .banner_text a .icon {
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    #banner .banner_text a .a_text h5 {
+        font-size: 16px;
+    }
+
+    /* banner part end */
+
+
+    /* about part start */
+    #about {
+        padding: 0;
+    }
+
+    #about .space .about_text {
+        padding: 40px 0 30px;
+    }
+
+    #about .space .about_text .about_icon::before {
+        left: 280px;
+    }
+
+    #about .space .about_text h3::before {
+        left: 365px;
+    }
+
+    #about .space .about_text h3::after {
+        top: 41px;
+        left: 365px;
+    }
+
+    #about .space .about_text p {
+        padding-top: 15px;
+        line-height: 21px;
+    }
+
+    /* about part end */
+
+
+
+    /* service part start */
+    #service {
+        padding: 40px 0 20px;
+    }
+
+    #service .common_head .about_icon::after {
+        top: 15px;
+        left: 25px;
+    }
+
+    #service .common_head .about_icon::before {
+        bottom: 5px;
+        left: 25px;
+    }
+
+    #service .common_head h3::after {
+        top: 48px;
+        left: 285px;
+    }
+
+    #service .common_head h3::before {
+        bottom: -20px;
+        left: 280px;
+    }
+
+    #service .common_head {
+        padding-bottom: 20px;
+    }
+
+    #service .about_icon {
+        display: inline-block;
+    }
+
+    #service .serv_item .item_icon {
+        text-align: left;
+        font-size: 0;
+        width: 10%;
+        position: relative;
+    }
+
+    #service .serv_item .item_icon i {
+        font-size: 30px;
+        position: absolute;
+        left: 45px;
+        bottom: 0;
+    }
+
+    #service .serv_item .item_text {
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 5px;
+    }
+
+    #service .serv_item .item_text h3 {
+        font-size: 16px;
+    }
+
+    #service .serv_item .item_text p {
+        font-size: 14px;
+    }
+
+    #service .serv_img {
+        padding-top: 20px;
+    }
+
+    #service .serv_item .item_text p::after {
+        top: 30px;
+        left: -50px;
+        width: 120%;
+    }
+
+    #service .serv_item {
+        padding-top: 30px;
+    }
+
+    #service .serv_item_1,
+    .serv_item_2,
+    .serv_item_3,
+    .serv_item_4,
+    .serv_item_5 {
+        margin: 0 !important;
+    }
+
+    #service .serv_item_1 {
+        padding-top: 0 !important;
+    }
+
+    #service .sm_padding {
+        padding-bottom: 30px;
+    }
+
+    #service .serv_text {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    #service .serv_text h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    #service .serv_text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    #service .serv_text p span {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    #service .serv_item:last-child .item_text p::after {
+        display: block;
+    }
+
+    /* service part end */
+
+
+    /* screenshots part start */
+    #screenshots {
+        padding: 40px 0 0;
+    }
+
+    #screenshots .about_icon {
+        display: inline-block;
+    }
+
+    #screenshots .common_head .about_icon::after {
+        top: 14px;
+        left: 25px;
+    }
+
+    #screenshots .common_head .about_icon::before {
+        bottom: 5px;
+        left: 25px;
+    }
+
+    #screenshots .common_head h3::after {
+        top: 48px;
+        left: 285px;
+    }
+
+    #screenshots .common_head h3::before {
+        bottom: -19px;
+        left: 280px;
+    }
+
+    #screenshots .scr_img img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* screenshots part end */
+
+
+
+    /* video part start */
+    #video {
+        padding: 40px 0 0;
+    }
+
+    #video .about_icon {
+        display: inline-block;
+    }
+
+    #video .common_head .about_icon::after {
+        top: 14px;
+        left: 25px;
+    }
+
+    #video .common_head .about_icon::before {
+        bottom: 5px;
+        left: 25px;
+    }
+
+    #video .common_head h3::after {
+        top: 48px;
+        left: 285px;
+    }
+
+    #video .common_head h3::before {
+        bottom: -19px;
+        left: 280px;
+    }
+
+    #video .video_img .video_icon i {
+        font-size: 70px;
+        color: #feffff;
+    }
+
+    #video .video_img {
+        padding: 100px 0;
+    }
+
+    #video .common_head {
+        padding-bottom: 20px;
+    }
+
+    /* video part end */
+
+
+
+    /* plan part start */
+    #plan {
+        padding: 40px 0 0;
+    }
+
+    #plan .about_icon {
+        display: inline-block;
+    }
+
+    #plan .common_head .about_icon::after {
+        top: 14px;
+        left: 25px;
+    }
+
+    #plan .common_head .about_icon::before {
+        bottom: 5px;
+        left: 25px;
+    }
+
+    #plan .common_head h3::after {
+        top: 48px;
+        left: 285px;
+    }
+
+    #plan .common_head h3::before {
+        bottom: -19px;
+        left: 280px;
+    }
+
+    #plan .membership .plan_item .item_head h3 {
+        font-size: 16px;
+        padding: 16px 30px;
+    }
+
+    #plan .membership .plan_item .item_price {
+        padding: 45px 0;
+    }
+
+    #plan .membership .plan_item .item_price h2 {
+        font-size: 30px;
+    }
+
+    #plan .membership .plan_item .item_price p {
+        font-size: 13px;
+    }
+
+    #plan .membership .plan_item .item_price::after {
+        height: 100px;
+        width: 100px;
+    }
+
+    #plan .membership .plan_item .item_list ul {
+        padding: 10px 0 30px;
+    }
+
+    #plan .membership .plan_item .item_list ul li {
+        font-size: 13px;
+    }
+
+    #plan .membership .plan_item .item_button a {
+        font-size: 13px;
+    }
+
+    #plan .membership .plan_item {
+        margin-bottom: 40px;
+    }
+
+    #plan .membership .plan_item .item_head {
+        background: #744fa0;
+    }
+
+    #plan .membership .plan_item .item_head h3 {
+        color: #fff;
+    }
+
+    #plan .membership .plan_item .item_button a {
+        color: #fff;
+        background: #744fa0;
+        border: 1px solid #744fa0;
+    }
+
+    #plan .membership .plan_item:hover .item_button a {
+        display: 0;
+    }
+
+    /* plan part end */
+
+
+
+
+    /* team part start */
+    #team {
+        padding: 20px 0;
+    }
+
+    #team .about_icon {
+        display: inline-block;
+    }
+
+    #team .common_head .about_icon::after {
+        top: 14px;
+        left: 25px;
+    }
+
+    #team .common_head .about_icon::before {
+        bottom: 5px;
+        left: 25px;
+    }
+
+    #team .common_head h3::after {
+        top: 48px;
+        left: 285px;
+    }
+
+    #team .common_head h3::before {
+        bottom: -19px;
+        left: 280px;
+    }
+
+    #team .team_all .team_item .team_text {
+        opacity: 1;
+        padding: 15px;
+    }
+
+    #team .team_all .team_item .team_img .overly {
+        opacity: 1;
+    }
+
+    #team .team_all .team_item {
+        margin-bottom: 20px;
+    }
+
+    #team .team_all .team_item .team_text h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    #team .team_all .team_item .team_text h6 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    #team .team_all .team_item .t\eam_text p {
+        font-size: 12px;
+    }
+
+    /* team part end */
+
+
+    /* feedback part start */
+    #feedback {
+        padding: 0;
+    }
+
+    #feedback .about_icon {
+        display: inline-block;
+    }
+
+    #feedback .common_head .about_icon::after {
+        top: 15px;
+        left: 25px;
+    }
+
+    #feedback .common_head .about_icon::before {
+        bottom: 5px;
+        left: 25px;
+    }
+
+    #feedback .common_head h3::after {
+        top: 48px;
+        left: 285px;
+    }
+
+    #feedback .common_head h3::before {
+        bottom: -20px;
+        left: 280px;
+    }
+
+    #feedback .feed_slider .big_slider {
+        width: 520px !important;
+        margin: 0 auto;
+    }
+
+    #feedback .feed_slider .big_slider .big_slider_1 {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    #feedback .feed_slider .big_slider .big_slider_1 p {
+        font-size: 13px;
+        line-height: 21px;
+        width: 500px;
+        margin-bottom: 25px;
+    }
+
+    #feedback .feed_slider .small_slider {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    /* feedback part end */
+
+
+    /* contact part start */
+    #contact {
+        padding: 40px 0;
+    }
+
+    #contact .about_icon {
+        display: inline-block;
+    }
+
+    #contact .common_head .about_icon::after {
+        top: 14px;
+        left: 25px;
+    }
+
+    #contact .common_head .about_icon::before {
+        bottom: 5px;
+        left: 25px;
+    }
+
+    #contact .common_head h3::after {
+        top: 48px;
+        left: 285px;
+    }
+
+    #contact .common_head h3::before {
+        bottom: -19px;
+        left: 280px;
+    }
+
+    #contact form .button button {
+        padding: 4px 25px;
+    }
+
+    #contact form input {
+        padding: 10px 0 10px 10px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #contact form textarea {
+        margin-top: 0;
+        font-size: 14px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+
+    #contact form .button {
+        padding-top: 20px;
+    }
+
+    /* contact part end */
+
+
+
+    /* footer part start */
+    #footer .foot_logo img {
+        width: 80% !important;
+    }
+
+    #footer .foot_link {
+        padding-top: 20px;
+    }
+
+    #footer .foot_link ul li a {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    #footer .foot_text p a {
+        font-size: 14px;
+    }
+
+    #footer .foot_text p {
+        font-size: 14px;
+    }
+
+    #footer .foot_text {
+        padding-top: 20px;
+    }
+
+    /* footer part end */
+
+
+    /*back to top button start */
+    .bc_top {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    /*back to top button end */
+
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    /* menu part start */
+    /* menu part end */
+
+    /* banner part start */
+    #banner {
+        padding: 170px 0 80px;
+    }
+
+    #banner .banner_text h3::after {
+        top: 95px;
+    }
+
+    #banner .banner_text a .icon {
+        font-size: 25px;
+    }
+
+    #banner .banner_text a {
+        margin-top: 35px;
+    }
+
+    /* banner part end */
+
+    /* about part start */
+    #about {
+        padding: 70px 0 20px;
+    }
+
+    #about .about_icon {
+        display: inline-block;
+    }
+
+    #about .space .about_text .about_icon::after {
+        top: 47%;
+        left: 20px;
+        ;
+    }
+
+    #about .space .about_text .about_icon::before {
+        bottom: 32%;
+        left: 20px;
+    }
+
+    #about .space .about_text h3::after {
+        top: 40px;
+        left: 180px;
+    }
+
+    #about .space .about_text h3::before {
+        bottom: -17px;
+        left: 175px;
+    }
+
+    /* about part end */
+
+
+    /* service part start */
+    #service .about_icon {
+        display: inline-block;
+    }
+
+    #service .common_head .about_icon::after {
+        top: 14px;
+        left: 21px;
+    }
+
+    #service .common_head .about_icon::before {
+        bottom: 5px;
+        left: 21px;
+    }
+
+    #service .common_head h3::after {
+        top: 48px;
+        left: 420px;
+    }
+
+    #service .common_head h3::before {
+        bottom: -19px;
+        left: 415px;
+    }
+
+    #service .serv_item .item_icon i {
+        font-size: 30px;
+    }
+
+    #service .serv_item .item_text h3 {
+        font-size: 17px;
+    }
+
+    #service .serv_item .item_text p {
+        font-size: 13px;
+    }
+
+    #service .serv_item .item_text p::after {
+        top: 30px;
+        left: -40px;
+    }
+
+    #service .serv_item_2,
+    .serv_item_3,
+    .serv_item_4,
+    .serv_item_5 {
+        margin-top: 20px !important;
+    }
+
+    /* service part end */
+
+
+    /* screenshots part start */
+    #screenshots {
+        padding: 60px 0 30px;
+    }
+
+    #screenshots .about_icon {
+        display: inline-block;
+    }
+
+    #screenshots .common_head .about_icon::after {
+        top: 14px;
+        left: 21px;
+    }
+
+    #screenshots .common_head .about_icon::before {
+        bottom: 5px;
+        left: 21px;
+    }
+
+    #screenshots .common_head h3::after {
+        top: 48px;
+        left: 420px;
+    }
+
+    #screenshots .common_head h3::before {
+        bottom: -19px;
+        left: 415px;
+    }
+
+    #screenshots .common_head {
+        padding-bottom: 20px;
+    }
+
+    /* screenshots part end */
+
+
+    /* video part start */
+    #video .about_icon {
+        display: inline-block;
+    }
+
+    #video .common_head .about_icon::after {
+        top: 14px;
+        left: 21px;
+    }
+
+    #video .common_head .about_icon::before {
+        bottom: 6px;
+        left: 21px;
+    }
+
+    #video .common_head h3::after {
+        top: 48px;
+        left: 420px;
+    }
+
+    #video .common_head h3::before {
+        bottom: -19px;
+        left: 415px;
+    }
+
+    /* video part end */
+
+
+    /* plan part start */
+    #plan {
+        padding: 60px 0 100px;
+    }
+
+    #plan .common_head .about_icon::before {
+        left: 495px;
+    }
+
+    #plan .common_head .about_icon::after {
+        left: 495px;
+    }
+
+    #plan .common_head h3::before {
+        bottom: -18px;
+        left: 415px;
+    }
+
+    #plan .common_head h3::after {
+        left: 420px;
+    }
+
+    /* plan part end */
+
+    /* team part start */
+    #team .common_head .about_icon::before {
+        left: 495px;
+    }
+
+    #team .common_head .about_icon::after {
+        left: 495px;
+    }
+
+    #team .common_head h3::before {
+        bottom: -18px;
+        left: 415px;
+    }
+
+    #team .common_head h3::after {
+        left: 420px;
+    }
+
+    /* team part end */
+
+    /* menu part start */
+    #feedback {
+        padding: 60px 0;
+    }
+
+    #feedback .common_head .about_icon::before {
+        left: 495px;
+    }
+
+    #feedback .common_head .about_icon::after {
+        left: 495px;
+    }
+
+    #feedback .common_head h3::before {
+        bottom: -18px;
+        left: 415px;
+    }
+
+    #feedback .common_head h3::after {
+        left: 420px;
+    }
+
+    #feedback .feed_slider .small_slider {
+        width: 100%;
+    }
+
+    /* menu part end */
+
+
+    /* contact part end */
+    #contact {
+        padding-bottom: 70px;
+    }
+
+    #contact .common_head .about_icon::before {
+        left: 495px;
+        bottom: 6px;
+    }
+
+    #contact .common_head .about_icon::after {
+        left: 495px;
+    }
+
+    #contact .common_head h3::before {
+        bottom: -18px;
+        left: 415px;
+    }
+
+    #contact .common_head h3::after {
+        left: 420px;
+    }
+
+    /* contact part end */
+}
+
+@media (min-width: 1200px) and (max-width:1399px) {
+
+    /* about part start */
+    #about .space .about_text .about_icon::after {
+        left: 40%;
+    }
+
+    #about .space .about_text .about_icon::before {
+        left: 223px;
+    }
+
+    #about .space .about_text h3::after {
+        left: 295px;
+    }
+
+    #about .space .about_text h3::before {
+        left: 295px;
+    }
+
+    /* about part end */
+
+
+    /* service part start */
+    #service .common_head h3::after {
+        top: 47px;
+        left: 585px;
+    }
+
+    #service .common_head h3::before {
+        bottom: -18px;
+        left: 585px;
+    }
+
+    #service .common_head .about_icon::before {
+        left: 505px;
+    }
+
+    #service .common_head .about_icon::after {
+        left: 510px;
+    }
+
+    /* service part end */
+
+    /* screenshots part start */
+    #screenshots .common_head .about_icon::after {
+        left: 510px;
+    }
+
+    #screenshots .common_head .about_icon::before {
+        left: 505px;
+        bottom: 7px;
+    }
+
+    #screenshots .common_head h3::before {
+        bottom: -18px;
+        left: 585px;
+    }
+
+    #screenshots .common_head h3::after {
+        top: 47px;
+        left: 585px;
+    }
+
+    /* screenshot part end */
+
+
+    /* video part start */
+    #video .common_head .about_icon::after {
+        left: 510px;
+    }
+
+    #video .common_head .about_icon::before {
+        left: 505px;
+        bottom: 7px;
+    }
+
+    #video .common_head h3::before {
+        bottom: -18px;
+        left: 585px;
+    }
+
+    #video .common_head h3::after {
+        top: 46px;
+        left: 585px;
+    }
+
+    /* video part end */
+
+
+    /* plan part start */
+    #plan .common_head .about_icon::after {
+        left: 510px;
+        top: 12px;
+    }
+
+    #plan .common_head .about_icon::before {
+        left: 505px;
+        bottom: 7px;
+    }
+
+    #plan .common_head h3::before {
+        bottom: -17px;
+        left: 585px;
+    }
+
+    #plan .common_head h3::after {
+        top: 46px;
+        left: 585px;
+    }
+
+    /* plan part end */
+
+
+
+    /* team part start */
+    #team .common_head .about_icon::after {
+        left: 510px;
+    }
+
+    #team .common_head .about_icon::before {
+        left: 505px;
+        bottom: 7px;
+    }
+
+    #team .common_head h3::before {
+        bottom: -18px;
+        left: 585px;
+    }
+
+    #team .common_head h3::after {
+        top: 47px;
+        left: 585px;
+    }
+
+    /* team part end */
+
+
+
+    /* screenshots part start */
+    #feedback .feed_slider .small_slider {
+        width: 100%;
+    }
+
+    #feedback .common_head .about_icon::after {
+        left: 510px;
+    }
+
+    #feedback .common_head .about_icon::before {
+        left: 505px;
+        bottom: 6px;
+    }
+
+    #feedback .common_head h3::before {
+        bottom: -18px;
+        left: 585px;
+    }
+
+    #feedback .common_head h3::after {
+        top: 47px;
+        left: 585px;
+    }
+
+    /* feedback part end */
+
+
+    /* contact part start */
+    #contact .common_head .about_icon::after {
+        left: 510px;
+    }
+
+    #contact .common_head .about_icon::before {
+        left: 505px;
+        bottom: 7px;
+    }
+
+    #contact .common_head h3::before {
+        bottom: -18px;
+        left: 585px;
+    }
+
+    #contact .common_head h3::after {
+        top: 47px;
+        left: 585px;
+    }
+
+    /* contact part end */
+
+}
+
+@media (min-width: 1400px) {}

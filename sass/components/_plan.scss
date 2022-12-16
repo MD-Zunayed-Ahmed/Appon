@@ -1,0 +1,141 @@
+@import '../variables/variable';
+@import '../mixins/mixin';
+
+/*=======================================================================================
+                                        plan part start
+=========================================================================================*/
+#plan {
+    padding: 100px 0;
+
+    .common_head {
+        padding-bottom: 30px;
+
+        h3 {
+            @include fs(#353535, 24px, 700, $ral);
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 5px;
+
+            &::after {
+                @include after_T(47px, 673px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(-18px, 673px, 1px, 50px, #353535);
+            }
+        }
+
+        .about_icon {
+            position: relative;
+
+            &::after {
+                @include after_T(13px, 600px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(6px, 595px, 1px, 50px, #353535);
+            }
+        }
+    }
+
+    .membership {
+        .plan_item {
+            border: 1px solid #f1f1f1;
+            border-radius: 20px;
+            background: #f1f1f1;
+            position: relative;
+
+            &:hover {
+                .item_head {
+                    background: $hover;
+
+                    h3 {
+                        color: #fff;
+                    }
+                }
+
+                .item_button {
+                    a {
+                        background: $hover;
+                        color: #fff;
+                        border: 1px solid $hover;
+                    }
+                }
+            }
+
+            .item_head {
+                border-radius: 20px 20px 0 0;
+                transition: all linear .3s;
+
+                h3 {
+                    @include fs(#353535, 18px, 700, $ral);
+                    text-transform: uppercase;
+                    padding: 20px 40px;
+                }
+            }
+
+            .item_price {
+                background: #fff;
+                padding: 50px 0;
+                position: relative;
+
+                h2 {
+                    @include fs(#353535, 47px, 700, $ral);
+
+                    span {
+                        @include fs(#353535, 18px, 700, $ral);
+                    }
+                }
+
+                p {
+                    @include fs(#555, 15px, 700, $ral);
+                    padding-top: -5px;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    top: 50%;
+                    left: 50%;
+                    height: 115px;
+                    width: 115px;
+                    border: 3px solid #f1f1f1;
+                    border-radius: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .item_list {
+                ul {
+                    padding: 30px 0 40px;
+
+                    li {
+                        @include fs(#555555, 14px, 400, $open);
+                        line-height: 30px;
+                    }
+                }
+            }
+
+            .item_button {
+                position: absolute;
+                content: '';
+                bottom: -17px;
+                left: 50%;
+                transform: translateX(-50%);
+                transition: all linear .3s;
+
+                a {
+                    @include fs(#353535, 14px, 700, $ral);
+                    border: 1px solid #353535;
+                    padding: 5px 20px;
+                    border-radius: 5px;
+                    transition: all linear .3s;
+                }
+            }
+        }
+    }
+}
+
+/*=======================================================================================
+                                        plan part end
+=========================================================================================*/

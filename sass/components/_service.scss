@@ -1,0 +1,145 @@
+@import '../variables/variable';
+@import '../mixins/mixin';
+
+/*=======================================================================================
+                                        service part start
+=========================================================================================*/
+#service {
+    padding: 60px 0;
+    background: #f1f1f1;
+
+    .common_head {
+        padding-bottom: 30px;
+
+        h3 {
+            @include fs(#353535, 24px, 700, $ral);
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 5px;
+
+            &::after {
+                @include after_T(47px, 675px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(-18px, 675px, 1px, 50px, #353535);
+            }
+        }
+
+        .about_icon {
+            position: relative;
+
+            &::after {
+                @include after_T(13px, 600px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(6px, 595px, 1px, 50px, #353535);
+            }
+        }
+    }
+
+    .serv_item {
+        &:last-child {
+            .item_text {
+                p {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .item_icon {
+            text-align: center;
+            font-size: 42px;
+            color: #353535;
+            transition: all linear .3s;
+
+            i {
+                font-size: 42px;
+            }
+        }
+
+        .item_text {
+            margin-top: 15px;
+
+            h3 {
+                @include fs(#353535, 18px, 700, $ral);
+                text-transform: uppercase;
+                transition: all linear .3s;
+            }
+
+            p {
+                @include fs(#555, 14px, 400, $open);
+                line-height: 20px;
+                position: relative;
+                transition: all linear .3s;
+
+                &::after {
+                    @include after_T(50px, -60px, 1px, 100%, #353535);
+                    transition: all linear .3s;
+                }
+
+            }
+        }
+
+        &:hover {
+            .item_icon {
+                color: $hover;
+            }
+
+            .item_text {
+                h3 {
+                    color: $hover;
+                }
+
+                p {
+                    color: $hover;
+
+                    &::after {
+                        background: $hover;
+                    }
+                }
+            }
+        }
+    }
+
+    .serv_text {
+        h3 {
+            @include fs(#353535, 18px, 700, $ral);
+            text-transform: uppercase;
+            padding-bottom: 15px;
+        }
+
+        p {
+            @include fs(#555, 14px, 400, $ral);
+
+            span {
+                display: block;
+                @include fs(#555, 13px, 400, $open);
+                padding-top: 20px;
+            }
+        }
+    }
+
+    .serv_item_2 {
+        margin-top: 40px;
+    }
+
+    .serv_item_3 {
+        margin-top: 40px;
+    }
+
+    .serv_item_4 {
+        margin-top: 40px;
+    }
+
+    .serv_item_5 {
+        margin-top: 40px;
+    }
+}
+
+/*=======================================================================================
+                                        service part end
+=========================================================================================*/

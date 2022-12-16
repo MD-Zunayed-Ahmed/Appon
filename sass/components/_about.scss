@@ -1,0 +1,66 @@
+@import '../variables/variable';
+@import '../mixins/mixin';
+
+/*=====================================================================================
+                                    about part start
+======================================================================================*/
+#about {
+    padding: 100px 0 40px;
+
+    .space {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .about_text {
+            float: right;
+            text-align: center;
+            padding: 50px 0;
+
+            h3 {
+                @include fs(#353535, 24px, 700, $ral);
+                text-transform: uppercase;
+                position: relative;
+
+                &::after {
+                    @include after_T(40px, 345px, 1px, 45px, #353535);
+                }
+
+                &::before {
+                    @include before_B(-17px, 345px, 1px, 50px, #353535);
+                }
+            }
+
+            .about_icon {
+                position: relative;
+
+                &::after {
+                    @include after_T(47%, 41%, 1px, 45px, #353535);
+                }
+
+                &::before {
+                    @include before_B(33%, 265px, 1px, 50px, #353535);
+                }
+            }
+
+            p {
+                @include fs(#555, 14px, 400, $ral);
+                line-height: 20px;
+                padding-top: 20px;
+
+                span {
+                    display: block;
+                    padding-top: 20px;
+                }
+            }
+        }
+
+        .about_img {
+            text-align: right;
+        }
+    }
+}
+
+/*=====================================================================================
+                                    about part end
+======================================================================================*/

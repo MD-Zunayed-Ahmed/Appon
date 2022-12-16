@@ -1,0 +1,43 @@
+@import '../variables/variable';
+@import '../mixins/mixin';
+
+/*=======================================================================================
+                                        screenshots part start
+=========================================================================================*/
+#screenshots {
+    padding: 100px 0;
+
+    .common_head {
+        padding-bottom: 30px;
+
+        h3 {
+            @include fs(#353535, 24px, 700, $ral);
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 5px;
+
+            &::after {
+                @include after_T(47px, 673px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(-18px, 673px, 1px, 50px, #353535);
+            }
+        }
+
+        .about_icon {
+            position: relative;
+
+            &::after {
+                @include after_T(13px, 600px, 1px, 45px, #353535);
+            }
+
+            &::before {
+                @include before_B(7px, 595px, 1px, 50px, #353535);
+            }
+        }
+    }
+}
+/*=======================================================================================
+                                        screenshots part end
+=========================================================================================*/
