@@ -35,7 +35,7 @@ $(function () {
     centerMode: true,
     focusOnSelect: true,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     responsive: [{
       breakpoint: 1200,
